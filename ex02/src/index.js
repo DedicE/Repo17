@@ -1,4 +1,10 @@
-// Only change code below this line 
+const workDays = ['MON', 'TUE', 'WED', 'THU', 'FRI'];
 
-// Only change code above this line
+function myWeek(days) {
+    let week = [...days, 'SAT', 'SUN'];
+    return week;
+}
+
+console.log(myWeek(workDays));
+
 module.exports = myWeek;
