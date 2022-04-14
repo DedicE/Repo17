@@ -5,8 +5,8 @@ const MY_CAR = {
 };
 
 function main(myCar) {
-    const { wheels, cylinders, size } = myCar;
-    return { cylinders, size }
+    const { cylinders, size } = myCar;
+    return { cylinders, size };
 }
 
 console.log(main(MY_CAR));

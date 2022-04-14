@@ -43,7 +43,9 @@ function findUser(lastName, gender) {
 
 
     } catch (error) {
+        console.log(error);
         console.log("Cannot read property 'firstName' of undefined");
+        return "Cannot read property 'firstName' of undefined";
     }
 
 }
